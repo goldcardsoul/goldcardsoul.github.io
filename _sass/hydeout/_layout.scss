@@ -26,14 +26,20 @@ body {
   color: rgba(255,255,255,1);
   background-color: $sidebar-bg-color;
   background-image: url("/assets/hp_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
+
+  outline: 2px solid #fff;
+  outline-offset: -20px;
 }
 
 #sidebar {
   flex: 0 0 auto;
+  height: 100vh;
   padding: $section-spacing;
 
   .site-title {
@@ -64,7 +70,7 @@ body {
 }
 
 .content {
-  background: $body-bg;
+  background: transparent;
   color: $body-color;
   padding: $section-spacing;
 }
@@ -149,7 +155,8 @@ body {
   /* Undo mobile CSS */
 
   #sidebar, .home #sidebar {
-    width: $sidebar-width;
+    width: $sidebar-width + 3rem;
+    padding: 4rem 1rem 3rem 5rem;
     text-align: left;
 
     > *:last-child {
@@ -178,7 +185,7 @@ body {
 
   // Make entire container background white to contrast against sidebar
   .container {
-    background: $body-bg;
+    background: transparent;
     color: $body-color;
     padding: $section-spacing * 2;
     height: 100vh;
