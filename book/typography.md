@@ -4,6 +4,8 @@ title: Typography
 sidebar_link: true
 ---
 
+## Typeface Selection
+
 Choosing the right typeface is important, but up to a point.
 
 A lot of designers faun over type as if it's this delicate thing that you, too, need to faun over in the same way in order to be successful. You don't. You just need to understand how to choose the right typeface and why, and stress less about what your choice says about you as a designer. Type is a tool.
