@@ -3,41 +3,87 @@
   Designed, built, and released under MIT license by @mdo.
 */
 
-@import "hydeout/variables";
-@import "hydeout/base";
-@import "hydeout/type";
-@import "hydeout/syntax";
-@import "hydeout/code";
-@import "hydeout/layout";
-@import "hydeout/masthead";
-@import "hydeout/posts";
-@import "hydeout/pagination";
-@import "hydeout/message";
-@import "hydeout/search";
-@import "hydeout/tags";
+// @import "hydeout/variables";
+// @import "hydeout/base";
+// @import "hydeout/type";
+// @import "hydeout/syntax";
+// @import "hydeout/code";
+// @import "hydeout/layout";
+// @import "hydeout/masthead";
+// @import "hydeout/posts";
+// @import "hydeout/pagination";
+// @import "hydeout/message";
+// @import "hydeout/search";
+// @import "hydeout/tags";
 
+$gold: #B09A60;
 
-
-.lead {
-	text-align: right;
-	margin-top: 6rem;
-	font-size: 16px;
-	font-weight: 200;
+body {
+	display: grid;
+	grid-template-columns: 250px auto;
+	padding: 0;
+	margin: 0;
 }
 
-.about-info {
-	text-align: right;
-	font-weight: 300;
-	a {
-		color: #fff;
+h1, h2, h3, h4 {
+	font-family: sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
 	}
 }
 
-.blog-title {
-	font-weight: 100;
-	font-size: 3.2rem;
+#sidebar {
+	font-family: sans-serif;
+	padding: 1em;
+	header {
+		position: relative;
+	}
+	.book-title {
+		font-weight: 600;
+	}
+	.chapters {
+		font-weight: 800;
+		text-transform: uppercase;
+		font-size: .75em;
+		color: $gold;
+		+ ul {
+			margin-top: .75em;
+		}
+	}
+	ul {
+		margin: 1.5em 0;
+		padding: 0;
+		list-style-type: none;
+		font-weight: 100;
+		li {
+			margin: .5em 0;
+		}
+	}
+	.sidebar-border {
+		width: 1px;
+		background-color: $gold;
+		height: 600px;
+		position: absolute;
+		right: 0;
+		top: -1em;
+	}
 }
 
-.index.home .content {
-	margin-top: 44vh;
+.book--gcs-logo {
+	width: 70px;
+	margin-bottom: 1.5em;
+	svg {
+		width: 100%;
+	}
+}
+
+.book-content {
+	max-width: 33em;
+	margin-left: 2em;
+	margin-top: 3em;
 }

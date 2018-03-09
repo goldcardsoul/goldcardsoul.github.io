@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: book
 title: Typography
 sidebar_link: true
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: book
 title: Design Management
 sidebar_link: true
 ---

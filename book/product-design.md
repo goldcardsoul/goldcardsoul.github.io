@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: book
 title: Product Design
 sidebar_link: true
 ---
