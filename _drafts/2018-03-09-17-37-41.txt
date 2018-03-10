@@ -1,0 +1,5 @@
+Always get specs. It can be hard to know for sure when a design is done if there isn't a list of requirements to check against. 
+
+There is a relatively small project I was working on this week. I assumed I was finished yesterday, having comped all the views which would contain the content I was given. Today, a lead on the project looked at my work and asked about other types of content I didn't know were a part of the plan. 
+
+As a professional designer, I can't drop the blame fully on the project manager. I didn't ask for the specs, which meant my assumptions ended up biting me in the ass. This particular situation was small stakes, but it's a good reminder why specs are so important. Having written requirements protects everyone.
