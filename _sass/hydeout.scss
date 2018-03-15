@@ -17,6 +17,7 @@
 // @import "hydeout/tags";
 
 $gold: #B09A60;
+$pink: #F9A9A9;
 
 @mixin gradient-bg {
 	background: #edf0e9; /* Old browsers */
@@ -58,6 +59,7 @@ a {
 
 main {
 	padding-bottom: 3em;
+	position: relative;
 }
 
 #sidebar {
@@ -101,6 +103,17 @@ main {
 	} */
 }
 
+.sidebar-dot {
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	background-color: $pink;
+	position: fixed;
+	left: 14.5em;
+	top: 11.75em;
+	z-index: 2;
+}
+
 .book--gcs-logo {
 	width: 70px;
 	margin-bottom: 1.5em;
@@ -111,6 +124,6 @@ main {
 
 .book-content {
 	max-width: 33em;
-	margin-left: 2em;
+	margin-left: 3em;
 	margin-top: 3em;
 }
