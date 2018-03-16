@@ -1,0 +1,5 @@
+For product design:
+
+How best to create roadmaps for design work? If developers are using a kanban board like Jira, should design tasks be listed there? Should they be collected in a separate system? 
+
+Designers should have a good understanding of short, medium, and long term goals. Their work will be much improved the more they can confidently plan. In order to best design the details, they must be able to correctly discern high level decisions, too. 
