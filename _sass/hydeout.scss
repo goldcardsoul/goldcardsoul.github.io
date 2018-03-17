@@ -172,7 +172,7 @@ body.post {
 		.gcs-logo {
 			width: 60%;
 			max-width: 350px;
-			margin: 0 0 4em 4em;
+			margin: 0 0 8em 4em;
 			float: left;
 		}
 		.lead {
@@ -184,6 +184,36 @@ body.post {
 		}
 		.about-info {
 			clear: both;
+			text-align: right;
+			width: 37%;
+			span {
+				z-index: 2;
+				font-weight: 300;
+				line-height: 1.5em;
+			}
+			* {
+				position: relative;
+			}
+			.location-icon {
+				height: 1em;
+				margin-top: .2em;
+			}
+			svg {
+				width: 1.5em;
+				margin-left: .25em;
+				position: absolute;
+				.cls-2 {
+					fill: #000;
+				}
+			}
+		}
+		.large-dot {
+			@include pink-dot;
+			width: 9em;
+			height: 9em;
+			z-index: 1;
+			top: -5em;
+			left: 60%;
 		}
 	}
 
@@ -202,8 +232,8 @@ body.post {
 
 	.content {
 		position: relative;
-		max-width: 33em;
-		padding: 3em;
+		max-width: 35em;
+		padding: 3em 3em 10em;
 		z-index: 1;
 	}
 }
@@ -229,4 +259,36 @@ body.post {
     top: 25%;
     z-index: 3;
     transform: skew(32deg, 0deg);
+}
+
+/* ---------- Blog ---------- */
+
+.post-date {
+	color: $gold;
+	font-size: .8em;
+	font-weight: 700;
+	font-family: sans-serif;
+	margin: 1em 0;
+	letter-spacing: .05em;
+}
+
+article {
+	margin-bottom: 5em;
+	h2 {
+		margin-bottom: .5em;
+	}
+	p {
+		font-size: 1.25em;
+		line-height: 1.4em;
+	}
+}
+
+.pagination {
+	font-family: sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	a:hover {
+		text-decoration: none;
+		color: $pink;
+	}
 }
