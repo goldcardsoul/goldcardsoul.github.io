@@ -1,0 +1,6 @@
+[This quote from Robin Rendle](
+https://robinrendle.com/notes/inconsistencies-and-productivity/) struck a chord with me.
+
+> In fact, it takes a lot of time to design robust systems that can scale across every part of a UI/product and doing all that work weirdly enough doesn’t feel like work, instead it’s more akin to unnecessary hassle and stress. But I can’t help think that this is what should differentiate the work of product designers from the work of graphic or print designers—and orgs should really incentivize simple and perhaps even boring additions to a system or a product.
+
+At the Journal, I’ve been feeling this acutely. So much of my work is just being focused on not unnecessarily doing anything new, as apposed to designing new stuff. We have a growing UI kit and our goal is to keep it tight. This means I’m constantly pumping the breaks on my designs. Is a new component too unique? Is there another UI element I should be reusing? Does this new component expand the UI kit in a way which opens us up to potential off-brand visuals? It takes a good deal of time to think this stuff through. At some point, it becomes clear that doing less is actually doing more, if that “less” is paired with extra thought. 

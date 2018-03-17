@@ -1,9 +1,17 @@
 <div id="sidebar">
+
   <header>
 
     {% if page.layout == "index" %}
-      <div class="book--gcs-logo">{% include svg/gcs_logo.svg %}</div>
+      <div class="gcs-logo">{% include svg/gcs_logo.svg %}</div>
     {% endif %}
+
+    <p class="lead">A<br>Design<br>Practice</p>
+
+    <div class="about-info">
+      <span>Brooklyn, New York</span><br>
+      <span><a href="https:/twitter.com/goldcardsoul">@goldcardsoul</a></span>
+    </div>
 
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ site.baseurl }}/">
@@ -12,7 +20,6 @@
         {% endunless %}
       </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
-    <p class="lead">{{ site.tagline }}</p>
   </header>
 
 </div>
