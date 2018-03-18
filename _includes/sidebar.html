@@ -2,11 +2,9 @@
 
   <header>
 
-    {% if page.layout == "index" %}
-      <div class="gcs-logo">{% include svg/gcs_logo.svg %}</div>
-    {% endif %}
+    <div class="gcs-logo"><a href="/">{% include svg/gcs_logo.svg %}</a></div>
 
-    <p class="lead">A<br>Design<br>Practice</p>
+    <p class="lead">A <br>Design <br>Practice</p>
 
     <div class="about-info">
       <span>Brooklyn, New York{% include svg/location.svg %}</span><br>
@@ -14,13 +12,6 @@
       <div class="large-dot"></div>
     </div>
 
-    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
-      <a href="{{ site.baseurl }}/">
-        {% unless page.url == "/" %}
-          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
-        {% endunless %}
-      </a>
-    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
   </header>
 
 </div>

@@ -9,8 +9,6 @@ layout: default
 <div class="content">
   <h1 class="blog-title"><a href="/book">Design As It Is Practiced</a></h1>
 
-  {% include pagination-newer.html %}
-
   {{ content }}
 
   {% for post in paginator.posts %}
@@ -28,4 +26,6 @@ layout: default
   {% endfor %}
 
   {% include pagination-older.html %}
+
+  {% include pagination-newer.html %}
 </div>
