@@ -111,8 +111,11 @@ main {
 		border-bottom: 1px solid $gold;
 		min-height: auto;
 
+		background: -webkit-linear-gradient(left, #edf0e9 0%,#d4e5e0 50%,#d4e5e0 51%,#d6dfd5 100%);
+
 		.book-index {
 			display: none;
+			margin-top: 3em;
 		}
 	}
 
@@ -125,8 +128,9 @@ main {
 			display: inline-block;
 			text-align: center;
 			width: 200px;
-			margin: .4em auto 0;
+			margin: .3em auto 0;
 			font-size: 1.3em;
+			font-weight: 700;
 		}
 	}
 	.chapters {
@@ -153,6 +157,12 @@ main {
 
 	@media (max-width: 700px) {
 		font-size: .75em;
+	}
+	@media (max-width: 500px) {
+		font-size: 1em;
+		.book-title {
+			font-size: 1em;
+		}
 	}
 	/* .sidebar-border {
 		width: 1px;
@@ -207,8 +217,9 @@ main {
 		width: 30px;
 		display: inline-block;
 		float: left;
-		margin-right: 2em;
-		margin-bottom: 1em;
+		margin-right: 1em;
+		margin-bottom: 0;
+		margin-top: -.3em;
 	}
 }
 
@@ -220,6 +231,9 @@ main {
 	@media (max-width: 700px) {
 		margin: 0 1em 1em;
 		padding: 1em;
+	}
+	@media (max-width: 500px) {
+		margin: 0;
 	}
 }
 

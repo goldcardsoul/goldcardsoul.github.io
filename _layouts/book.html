@@ -29,7 +29,7 @@
 				<li><a href="/book/tools">Tools</a></li>
 			</ul>
 		</div>
-		
+
 	  </header>
 	</div>
 
@@ -44,4 +44,11 @@
 
     {% include custom-foot.html %}
   </body>
+
+	<script>
+	  $('.sidebar-dot').click(function() {
+	    $('.book-index').toggle();
+	  });
+	</script>
+
 </html>
