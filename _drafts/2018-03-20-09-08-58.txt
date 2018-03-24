@@ -1,0 +1,11 @@
+Redesigning existing products will result in a handful of unhappy users. There is no way around this, and it must be planned for. You will receive complaints. The challenge at this stage is in parsing the difference between legitimate user experience issues and complaints where a user is only upset that things changed. Many people do not like it when their beloved products change. They don't like it all.
+
+It's important to remember that all complaints are valid. An upset customer is an upset customer. Deciding which complaints are serious enough to require rethinking of the design is where the challenge lies.
+
+There are two things at play in this situation. One, you need to be able to confirm you've considered all potentially problematic accessibility concerns, and that your design meets any and all requirements. The second thing is much more subjective, as it requires you to read deeper into the response of the complainant.
+
+A recent real-world example. I redesigned a component of a website which, among many changes, two in particular resulted in handfuls customer complaints: the background color of the component from white to a very light gray, and the body text from serif to sans-serif. The complaints were ostensibly about legibility, with many people saying the new look was difficult to read. 
+
+So, what's the best way to handle these issues? First, support your designs for a long enough trial period that you can separate "I don't like new things" from "This is actually hard to read." If it's the former, the complaints will soon stop. Second, reconfirm that the design passes accessibility tests. In my example, it did. I had also increased the font size from 14px to 16px.
+
+Were people really finding the text in the redesigned component harder to read than before? In this case, the answer is very likely no. But I was sure not to immediately dismiss the complaints.
