@@ -1,5 +1,0 @@
-Now that we are doing a better job of integrating UI design into our sprint planning and task requirement documentation, we need to begin including UX into that, as well. 
-
-UX should be writing their specs into the task tickets along with UI. Hover states and other interactions are equally important and developers and QA should have something to check against for them, too.
-
-This will require UX and UI to work more shoulder to shoulder in the process.
