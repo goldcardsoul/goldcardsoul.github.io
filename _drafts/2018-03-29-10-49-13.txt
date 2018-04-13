@@ -1,3 +1,0 @@
-All failures should produce learnings. 
-
-Keep your iterations during the design process, and, when finished, look back and review how you ended up where you did? What decisions didn't work and why?
